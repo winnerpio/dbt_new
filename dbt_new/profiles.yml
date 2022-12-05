@@ -1,5 +1,5 @@
 # example profiles.yml file
-jaffle_shop:
+dbt_new:
   target: dev
   outputs:
     dev:
