@@ -8,7 +8,7 @@ dbt_new:
       server: dbtdb.database.windows.net
       port: 1433
       database: dbtdb
-      schema: dimensional
+      schema: dbo
       authentication: ActiveDirectoryPassword
       user: "{{ env_var('dbuser') }}"
       password: "{{ env_var('dbpass') }}"
